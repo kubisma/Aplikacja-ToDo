@@ -7,7 +7,7 @@ Aplikacja pozwala na:
 - **Dodawanie nowych zadań**
 - **Oznaczanie zadań jako ukończone**
 - **Usuwanie pojedynczych zadań**
-- **Usuwanie wszystkich ukończonych zadań**
+- **Usuwanie wszystkich zadań**
 - **Zliczanie zadań**
 - **Przechowywanie zadań w pamięci przeglądarki**
 
