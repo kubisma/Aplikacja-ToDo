@@ -1,0 +1,122 @@
+/* Styl ogólny */
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh;
+    margin: 0; 
+    font-family: Arial, sans-serif;
+}
+
+/* Styl kontenera formularza */
+.todo-container {
+    text-align: left;
+    padding: 30px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    width: 600px;
+}
+
+/* Formularz z polem tekstowym i przyciskiem */
+.form-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+/* Styl dla pola tekstowego */
+#task-input {
+    height: 40px; 
+    padding: 0 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1; 
+}
+
+/* Styl dla przycisku dodaj */
+#add-task-btn {
+    height: 40px; 
+    padding: 0 15px; 
+    font-size: 16px;
+    background-color: #357ABD; 
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Zmiana koloru przycisku po najechaniu kursorem */
+#add-task-btn:hover {
+    background-color: #3581cd; 
+}
+
+/* Styl dla listy zadań */
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0; 
+}
+
+/* Styl dla pojedynczego zadania */
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 10px;
+}
+
+/* Styl dla ukończonych zadań */
+.completed {
+    color: #D3D3D3; 
+}
+
+/* Checkbox */
+.task-item input[type="checkbox"] {
+    transform: scale(1.5); 
+    accent-color: #E9F9DE; 
+}
+
+/* Przycisk usuwania zadania */
+.task-item button {
+    background-color: #EF476F; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+/* Styl przycisku po najechaniu kursorem */
+.task-item button:hover {
+    background-color: #FEA4B1; 
+}
+
+/* Styl dla przycisku usuwania wszystkich zadań */
+#remove-all-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #EF476F;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Zmiana koloru przycisku po najechaniu kursorem */
+#remove-all-btn:hover {
+    background-color: #FEA4B1;
+}
+
+/* Styl dla licznika */
+.counter {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+

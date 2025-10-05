@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Aplikacja ToDo</h1>
+        
+        <!-- Formularz dodawania nowych zadań -->
+        <div class="form-container">
+            <input type="text" id="task-input" placeholder="Dodaj nowe zadanie...">
+            <button id="add-task-btn">Dodaj</button>
+        </div>
+
+        <!-- Lista zadań -->
+        <ul id="task-list"></ul>
+
+        <!-- Licznik zadań -->
+        <div class="counter">
+            <span id="task-counter">Ilość zadań: 0 • Ilość zadań ukończonych: 0</span>
+        </div>
+
+        <!-- Przycisk do usuwania wszystkich zadań -->
+        <button id="remove-all-btn">Usuń wszystkie zadania</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
